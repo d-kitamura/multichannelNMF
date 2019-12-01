@@ -40,7 +40,7 @@ function [Xhat,T,V,H,Z,cost] = multichannelNMF(X,N,K,maxIt,drawConv,T,V,H,Z)
 %         V: activation matrix (K x J)
 %         H: spatial covariance tensor (I x N x M x M)
 %         Z: partitioning matrix (K x N)
-%      cost: convergence behavior of cost function in multichannel NMF (it+1 x 1)
+%      cost: convergence behavior of cost function in multichannel NMF (maxIt+1 x 1)
 %
 
 % Check errors and set default values
