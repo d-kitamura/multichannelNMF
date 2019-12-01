@@ -1,18 +1,17 @@
 function [sep,cost] = bss_multichannelNMF(mix,ns,nb,fftSize,shiftSize,it,drawConv)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% bss_multichannelNMF: Blind source separation based on multichannel NMF  %
-%                                                                         %
-% Coded by D. Kitamura (d-kitamura@ieee.org)                              %
-%                                                                         %
-% # Original paper                                                        %
-% H. Sawada, H. Kameoka, S. Araki, and N. Ueda,	"Multichannel extensions  %
-% of non-negative matrix factorization with complex-valued data," IEEE    %
-% Transactions on Audio, Speech, and Language Processing, vol. 21, no. 5, %
-% pp. 971-982, May 2013.                                                  %
-%                                                                         %
-% see also                                                                %
-% http://d-kitamura.net                                                   %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% bss_multichannelNMF: Blind source separation based on multichannel NMF
+%
+% Coded by D. Kitamura (d-kitamura@ieee.org)
+%
+% # Original paper
+% H. Sawada, H. Kameoka, S. Araki, and N. Ueda,	"Multichannel extensions
+% of non-negative matrix factorization with complex-valued data," IEEE
+% Transactions on Audio, Speech, and Language Processing, vol. 21, no. 5,
+% pp. 971-982, May 2013.
+%
+% see also
+% http://d-kitamura.net
 %
 % [syntax]
 %   [sep,cost] = bss_multichannelNMF(mix,ns,nb,fftSize,shiftSize,it,drawConv)
