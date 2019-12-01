@@ -20,6 +20,7 @@ Implementation is quite heuristic and not readable. This is because the direct i
 ## Original paper
 Multichannel NMF was proposed in 
 * H. Sawada, H. Kameoka, S. Araki, and N. Ueda,	"Multichannel extensions of non-negative matrix factorization with complex-valued data," IEEE Transactions on Audio, Speech, and Language Processing, vol. 21, no. 5, pp. 971-982, May 2013.
+
 However, the following papers are also important for understanding the spatial covariance model assumed in multichannel NMF:
 * N. Q. K. Duong, E. Vincent, and R. Gribonval, "Underdetermined reverberant audio source separation using a fullrank spatial covariance model," IEEE Transaction on Audio, Speech, and Language Processing, vol. 18, no. 7, pp. 1830–1840, 2010.
 * A. Ozerov and C. Févotte, "Multichannel nonnegative matrix factorization in convolutive mixtures for audio source separation," IEEE Transaction on Audio, Speech, and Language, Processing, vol. 18, no. 3, pp. 550–563, 2010.
